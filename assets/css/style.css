@@ -8,23 +8,23 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+header { /*changed class element selector to tag selector*/
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+h1 { /*simplified to h1 selector*/
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+.seo{ /*simpligied to class selector selector*/
     color: #d9dcd6;
 }
 
-.header div {
+nav{ /*simplified the .header div selector to nav selector*/
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,18 +32,13 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
-    list-style-type: none;
-}
+/*removed .header div ul selector*/
 
-.header div ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
-a {
+a { /* added .header div ul li css to anchor selectors*/
     color: #ffffff;
     text-decoration: none;
+    display: inline-block;
+    margin-left: 25px;
 }
 
 p {
@@ -59,17 +54,17 @@ p {
     background-position: center;
 }
 
-.float-left {
+.float-left { /* added max height to class selector for images*/
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
+.float-right { /* added max height to class selector for images*/
     float: right;
     margin-left: 25px;
 }
 
-.content {
+main { /* changed class selector for "content" to tag selector main*/
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -86,55 +81,23 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit-details { /* simplified .benefit-lead, .benefit-brand, .benefit-cost to .benefit-details class selector*/
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefit-details h3 {  /* simplified .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 to .benefit-details class selector*/
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.benefit-details img{
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+.services { /* simplified .search-engine-optimization, .online-reputation-management, .social-media-marketing into .services class selector*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,58 +106,24 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+.services img { /* simplified to one class selector for the 3 separate services images*/ 
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+.services h2 { /* simplified to one class selector for the 3 separate services header 2's*/
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.footer {
+footer { /*changed class element selector to tag selector*/
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
+
