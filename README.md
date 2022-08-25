@@ -10,6 +10,8 @@ N/A
 
 ## Usage
 
+Application deployed at the following link: https://park-d.github.io/module-1/
+
 At the top of the webpage, there are 3 links to the webpage content, Search Engine Optimization, Online Reputation Management, Social Media Marketing. When a link it clicked, it brings the user to the respective section to learn more. See screenshot of full webpage below.
 
 ![Screenhot of full webpage](assets/images/Full-Webpage-Screenshot.png)
