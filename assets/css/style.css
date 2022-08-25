@@ -1,3 +1,5 @@
+/*Overall, restructed the CSS to follow the flow of the HTML file.*/
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -41,10 +43,6 @@ a { /* added .header div ul li css to anchor selectors*/
     margin-left: 25px;
 }
 
-p {
-    font-size: 16px;
-}
-
 .hero {
     height: 800px;
     width: 100%;
@@ -54,20 +52,42 @@ p {
     background-position: center;
 }
 
-.float-left { /* added max height to class selector for images*/
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right { /* added max height to class selector for images*/
-    float: right;
-    margin-left: 25px;
-}
-
 main { /* changed class selector for "content" to tag selector main*/
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+}
+
+.services { /* simplified .search-engine-optimization, .online-reputation-management, .social-media-marketing into .services class selector*/
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.services img { /* simplified to one class selector for the 3 separate services images*/ 
+    max-height: 200px;
+}
+
+.services h2 { /* simplified to one class selector for the 3 separate services header 2's*/
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.float-left { 
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right { 
+    float: right;
+    margin-left: 25px;
+}
+
+p {
+    font-size: 16px;
 }
 
 .benefits {
@@ -97,33 +117,14 @@ main { /* changed class selector for "content" to tag selector main*/
     max-width: 150px;
 }
 
-.services { /* simplified .search-engine-optimization, .online-reputation-management, .social-media-marketing into .services class selector*/
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.services img { /* simplified to one class selector for the 3 separate services images*/ 
-    max-height: 200px;
-}
-
-.services h2 { /* simplified to one class selector for the 3 separate services header 2's*/
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 footer { /*changed class element selector to tag selector*/
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-
 }
 
-footer h2 {
+footer h4 { /*updated selector to h4 due to change in html*/
     font-size: 20px;
 }
 
